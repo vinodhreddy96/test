@@ -1,0 +1,50 @@
+# .gitignore for a typical Linux project
+# Compiled source files
+*.o
+*.so
+*.a
+*.out
+*.class
+*.pyc
+*.pyo
+*.pyd
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment files
+.env
+.env.*
+
+# Node modules
+node_modules/
+
+# Python virtual environments
+venv/
+ENV/
+.venv/
+
+# Backup files
+*.bak
+*.tmp
+
+# Misc
+__pycache__/
+coverage/
+
